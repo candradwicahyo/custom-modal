@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f4f7fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.btn {
+  position: relative;
+  padding: 12px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.btn-blue {
+  background: royalblue;
+}
+
+.btn-outline-blue {
+  border: 1px solid royalblue;
+  color: royalblue;
+}
+
+.modal {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding: 30px;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.5s ease all;
+}
+
+.modal.active {
+  top: 50%;
+}
+
+.modal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal .modal-header .modal-title {
+  font-size: 1.1rem;
+  color: royalblue;
+}
+
+.modal .modal-header .btn-close-modal {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 5px 0 5px 5px;
+}
+
+.modal .modal-body {
+  position: relative;
+}
+
+.frame {
+  width: 100%;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+.form-group {
+  position: relative;
+  display: block;
+}
+
+.form-group .form-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.input {
+  position: relative;
+  width: 100%;
+  padding: 12px 15px;
+  background: #f4f7fe;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .modal {
+    width: 90%;
+  }
+  
+}
