@@ -51,8 +51,6 @@ git clone https://github.com/candradwicahyo/custom-modal.git
 
 Berikut adalah tampilan preview dari repository:
 
-![preview](https://github.com/candradwicahyo/custom-modal/blob/master/preview1.jpg)
-
-![preview](https://github.com/candradwicahyo/custom-modal/blob/master/preview2.jpg)
+![preview](https://github.com/candradwicahyo/custom-modal/blob/master/image.jpg)
 
 Untuk mencoba demo, silakan kunjungi [tautan ini](https://candradwicahyo.github.io/custom-modal)
