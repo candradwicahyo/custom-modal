@@ -1,6 +1,6 @@
 # Custom Modal
 
-program dengan nama "Custom Modal" yang dibuat menggunakan html, css dan javascript. program ini berguna untuk menampilkan modal yang sesuai dengan cara menekan tombol yang memiliki attribute "data-modal" yang sama dengan "data-type" yang dimiliki oleh tiap modal yang dibuat.
+program dengan nama "Custom Modal" yang dibuat menggunakan html, css dan javascript. program ini berguna untuk menampilkan modal yang sesuai dengan cara menekan tombol yang memiliki attribute "data-modal" yang sama dengan "data-modal" yang dimiliki oleh tiap modal yang dibuat.
 
 setiap kali ingin memanggil sebuah modal, pastikan tombol tersebut memiliki attribute "data-modal" seperti ini
 
@@ -11,7 +11,7 @@ setiap kali ingin memanggil sebuah modal, pastikan tombol tersebut memiliki attr
 dan modal yang ingin dipanggil juga harus memiliki attribute "data-type" yang sama dengan tombol yang ditekan.
 
 ```html 
-<div class="modal" data-type="namaModal">
+<div class="modal" data-modal="namaModal">
   <div class="modal-header">
     <h3 class="modal-title">Default Modal</h3>
     <span class="btn-close-modal">×</span>
@@ -24,7 +24,7 @@ dan modal yang ingin dipanggil juga harus memiliki attribute "data-type" yang sa
 </div>
 ```
 
-karena jika attribute "data-modal" dari tombol yang ditekan dengan attribute "data-type" milik modal tidak sama, maka modal yang dipanggil tidak akan tampil ke halaman.
+karena jika attribute "data-modal" dari tombol yang ditekan dengan attribute "data-modal" milik modal tidak sama, maka modal yang dipanggil tidak akan tampil ke halaman.
 
 ## Tools dan Bahasa yang Digunakan
 
