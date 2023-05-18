@@ -8,7 +8,7 @@ setiap kali ingin memanggil sebuah modal, pastikan tombol tersebut memiliki attr
 <button type="button" data-modal="namaModal">click</button>
 ```
 
-dan modal yang ingin dipanggil juga harus memiliki attribute "data-type" yang sama dengan tombol yang ditekan.
+dan modal yang ingin dipanggil juga harus memiliki attribute "data-modal" yang sama dengan tombol yang ditekan.
 
 ```html 
 <div class="modal" data-modal="namaModal">
